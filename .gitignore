@@ -1,0 +1,59 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# Virtual environment
+env/
+.venv/
+venv/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and debugging
+*.log
+*.out
+*.err
+
+# YOLOv11 logs and outputs
+yolov11_logs/
+# runs/
+# models/*.pt
+# models/*.pth
+# models/runs/
+
+# Datasets (optional - if large and not versioned)
+# data/raw/
+# data/processed/
+# data/train/
+# data/valid/
+# data/test/
+
+# TensorBoard
+tensorboard/
+*.tfevents.*
+
+# WandB
+wandb/
+wandb-debug.log
+wandb/latest-run/
+
+# Docker
+*.container
+*.pid
+*.sock
+
+# Jupyter Notebook metadata
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# VS Code / JetBrains
+.vscode/
+.idea/
+*.code-workspace
+
+# OS generated
+*.swp
+*~
