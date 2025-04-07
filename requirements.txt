@@ -1,0 +1,27 @@
+# Core ML & YOLO
+torch>=2.0
+ultralytics>=8.1.0
+
+# Image processing
+opencv-python
+Pillow
+numpy
+
+# Visualization
+matplotlib
+seaborn
+
+# Data utilities
+pandas
+tqdm
+
+# Logging (choose one or both)
+tensorboard
+wandb
+
+# Jupyter (for notebooks)
+notebook
+ipykernel
+
+# Optional: if using YAML config files
+PyYAML
